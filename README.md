@@ -1,4 +1,6 @@
-![Logo](pics/player.png)
+<p align="center">
+  <img src="pics/player.png" alt="Logo" width="200">
+</p>
 
 # Retro Runner
 Retro Runner is my first project built with Python and Pygame, created as I began learning game development. It’s a pixel-style endless runner where the player must jump and dodge obstacles while the ground scrolls endlessly. The game features simple retro visuals, smooth movement, collision detection, and a scoring system that tracks how long you survive.
@@ -10,8 +12,9 @@ Retro Runner is my first project built with Python and Pygame, created as I bega
 - **Lightweight** - built entirely with Python and Pygame, easy to run on most systems.
 
 ## Preview
-
-<img src="pics/introscreen.png" alt="Screenshot" width="400">
-<img src="pics/gamescreen.png" alt="Screenshot" width="400">
+<center>
+    <img src="pics/introscreen.png" alt="Screenshot" width="600">
+    <img src="pics/gamescreen.png" alt="Screenshot" width="600">
+</center>
 
 
