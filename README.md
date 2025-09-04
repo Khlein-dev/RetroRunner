@@ -1,5 +1,5 @@
-<p align="center">
-  <img src="pics/player.png" alt="Logo" width="200">
+<p align="left">
+  <img src="pics/player.png" alt="Logo" width="90">
 </p>
 
 # Retro Runner
@@ -13,8 +13,8 @@ Retro Runner is my first project built with Python and Pygame, created as I bega
 
 ## Preview
 <center>
-    <img src="pics/introscreen.png" alt="Screenshot" width="600">
-    <img src="pics/gamescreen.png" alt="Screenshot" width="600">
+    <img src="pics/introscreen.png" alt="Screenshot" width="750">
+    <img src="pics/gamescreen.png" alt="Screenshot" width="750">
 </center>
 
 
