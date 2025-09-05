@@ -15,6 +15,7 @@ Retro Runner is my first project built with Python and Pygame, created as I bega
 <center>
     <img src="pics/introscreen.png" alt="Screenshot" width="750">
     <img src="pics/gamescreen.png" alt="Screenshot" width="750">
+    <img src="pics/animationscreen.png" alt="Screenshot" width="750">
 </center>
 
 
