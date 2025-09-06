@@ -56,6 +56,11 @@ game_active = False
 start_time = 0
 score = 0
 
+# Music
+pygame.mixer.music.load('pics/music2.mp3')  
+pygame.mixer.music.set_volume(0.5)             
+pygame.mixer.music.play(-1) 
+
 # Load and scale background and ground images
 sky_surface = pygame.image.load('pics/bg1.png').convert()
 sky_surface = pygame.transform.scale(sky_surface, (800, 400))
@@ -105,11 +110,17 @@ while True:
             if event.type == pygame.MOUSEBUTTONDOWN:
                 if player_rect.collidepoint(event.pos) and player_rect.bottom >= 320:
                     player_gravity = -21
+                    jump_sound = pygame.mixer.Sound('pics/jump.mp3')
+                    jump_sound.set_volume(0.5)
+                    jump_sound.play()
 
             # Jump on space key if player is on ground
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_SPACE and player_rect.bottom >= 320:
                     player_gravity = -21
+                    jump_sound = pygame.mixer.Sound('pics/jump.mp3')
+                    jump_sound.set_volume(0.5)
+                    jump_sound.play()
 
             # Spawn obstacles periodically
             if event.type == obstacle_timer:
